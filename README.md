@@ -14,7 +14,7 @@ MLflow Commands
 | `mlflow.sklearn.log_model(model, "model")` | Log trained model | Stores the trained model as an MLflow artifact |
 | `mlflow.log_artifact("data.csv")` | Log additional file | Stores a file as an MLflow artifact |
 | `mlflow.end_run()` | End MLflow run | Closes the current MLflow run |
-| `mlflow ui` | Start MLflow UI | Starts the MLflow tracking dashboard |
+| `python -m mlflow ui` | Start MLflow UI | Starts the MLflow tracking dashboard |
 | `python training.py` | Run experiment again | Creates a new MLflow run with new parameters/metrics |
 | `mlflow.register_model(...)` | Register model | Registers a model in MLflow Model Registry |
 | `mlflow models serve ...` | Serve model | Starts an API endpoint for model inference |
